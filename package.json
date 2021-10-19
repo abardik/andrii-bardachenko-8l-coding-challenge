@@ -1,0 +1,24 @@
+{
+	"name": "andrii-bardachenko-8l-coding-challenge",
+	"version": "1.0.0",
+	"description": "8th Light Coding Challenge",
+	"main": "index.js",
+	"scripts": {
+		"start": "node .",
+		"test": "jest",
+		"test:utils": "jest test/utils.test.js",
+		"test:1": "jest test/task1.test.js",
+		"test:2": "jest test/task2.test.js",
+		"test:3": "jest test/task3.test.js",
+		"coverage": "jest --coverage"
+	},
+	"keywords": [],
+	"author": "Andrii Bardachenko",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^27.3.0"
+	},
+	"jest": {
+		"verbose": true
+	}
+}
