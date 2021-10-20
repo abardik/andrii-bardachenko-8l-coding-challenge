@@ -1,8 +1,11 @@
 const { cleanUpID } = require('./utils');
 
-// TODO: get ID from stdin
+const readline = require('readline').createInterface({
+	input: process.stdin,
+	output: process.stdout
+});
 
-const id = "7-623";
-
-console.log(cleanUpID(id));
-// output: 7623
+readline.question('ID: ', id => {
+	readline.close();
+	console.log(cleanUpID(id));
+});
