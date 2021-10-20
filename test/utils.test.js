@@ -1,13 +1,6 @@
 const { cleanUpID, removeDuplicates, getSpecialties } = require('../utils');
 
 
-afterEach(() => {
-
-	expect(true).toBeTruthy();
-
-});
-
-
 describe("Test cleanUpID", () => {
 
 	describe("with valid data", () => {
